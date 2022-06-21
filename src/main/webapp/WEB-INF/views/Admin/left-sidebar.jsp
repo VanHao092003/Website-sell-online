@@ -40,6 +40,18 @@
                                     waves-effect waves-dark sidebar-link" href='<c:url value = "/admin/list order"/>' aria-expanded="false"><i
                                         class="mdi mdi-alert-outline"></i><span
                                         class="hide-menu">Đơn hàng</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link
+                                    waves-effect waves-dark sidebar-link" href='<c:url value = "/admin/list order"/>' aria-expanded="false"><i
+                                        class="mdi mdi-alert-outline"></i><span
+                                        class="hide-menu">Danh sách thương hiệu</span></a></li>
+                         <li class="sidebar-item"> <a class="sidebar-link
+                                    waves-effect waves-dark sidebar-link" href='<c:url value = "/admin/list order"/>' aria-expanded="false"><i
+                                        class="mdi mdi-alert-outline"></i><span
+                                        class="hide-menu">Danh sách ảnh</span></a></li>
+                         <li class="sidebar-item"> <a class="sidebar-link
+                                    waves-effect waves-dark sidebar-link" href='<c:url value = "/admin/list order"/>' aria-expanded="false"><i
+                                        class="mdi mdi-alert-outline"></i><span
+                                        class="hide-menu">phân chức quyền</span></a></li>
                         <li class="text-center p-40 upgrade-btn">
                             <a href='<c:url value = "/home"/>' class="btn d-block w-100 btn-danger
                                     text-white" target="_blank">Quay về trang chủ</a>
