@@ -16,13 +16,22 @@ public class Product {
 	private int sale;
 	private String name;
 	private String text;
+	private int name_ID;
 	
+	public int getName_ID() {
+		return name_ID;
+	}
+
+	public void setName_ID(int name_ID) {
+		this.name_ID = name_ID;
+	}
+
 	public Product() {
 		
 	}
 	
 	public Product(int iD_product, String title, int category_ID, int price, int discount, String image,
-			String discription, Date created_at, Date updated_at, int delete, int sale, String name, String text) {
+			String discription, Date created_at, Date updated_at, int delete, int sale, String name, String text, int name_ID) {
 		super();
 		ID_product = iD_product;
 		this.title = title;
@@ -37,6 +46,7 @@ public class Product {
 		this.sale = sale;
 		this.name = name;
 		this.text = text;
+		this.name_ID = name_ID;
 	}
 	public int getID_product() {
 		return ID_product;

@@ -36,9 +36,9 @@
 						<h4>Thương hiệu</h4>
 						<div class="single-nav">
 			                <ul>
-			                   <li><a href="#">adidas</a></li>
-			                    <li><a href="#">nike</a></li>
-			                    <li><a href="#">gucci</a></li>		                    
+			                   <li><a href='<c:url value = "/home/searchByCategory/adidas"/>'>adidas</a></li>
+			                    <li><a href='<c:url value = "/home/searchByCategory/nike"/>'>nike</a></li>
+			                    <li><a href='<c:url value = "/home/searchByCategory/gucci"/>'>gucci</a></li>                   
 			                </ul>
 			              </div>
 					</div>
@@ -46,81 +46,33 @@
 						<h4>Sản phẩn</h4>
 						<div class="single-nav">
 			                <ul>
-			                   <li><a href="#">Áo</a></li>
-			                    <li><a href="#">Quần</a></li>
-			                    <li><a href="#">Giày</a></li>
-			                    <li><a href="#">mũ</a></li>		                    
+			                   <li><a href='<c:url value = "/home/searchByCategory/shirt"/>'>Áo</a></li>
+			                    <li><a href='<c:url value = "/home/searchByCategory/trousers"/>'>Quần</a></li>
+			                    <li><a href='<c:url value = "/home/searchByCategory/shoes"/>'>Giày</a></li>
+			                    <li><a href='<c:url value = "/home/searchByCategory/hat"/>'>mũ</a></li>		                    
 			                </ul>
 			              </div>
 					</div>
 				</div>
 	<div class="main">
-		<h2 class="style top" style="text-align: center; ">Các sản phẩm giảm giá trên shop</h2>
 		<!-- start grids_of_3 -->
-		<div class="grids_of_3">
-			<div class="grid1_of_3">
-				<a href="details.html">
-					<img src="images/pic1.jpg" alt=""/>
-					<h3>branded shoes</h3>
-					<div class="price">
-						<h4>$300<span>indulge</span></h4>
-					</div>
-					<span class="b_btm"></span>
-				</a>
-			</div>
-			<div class="grid1_of_3">
-				<a href="details.html">
-					<img src="images/pic2.jpg" alt=""/>
-					<h3>branded t-shirts</h3>
-					<div class="price">
-						<h4>$300<span>indulge</span></h4>
-					</div>
-					<span class="b_btm"></span>
-				</a>
-			</div>
-			<div class="grid1_of_3">
-				<a href="details.html">
-					<img src="images/pic3.jpg" alt=""/>
-					<h3>branded tees</h3>
-					<div class="price">
-						<h4>$300<span>indulge</span></h4>
-					</div>
-					<span class="b_btm"></span>
-				</a>
-			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="grids_of_3">
-			<div class="grid1_of_3">
-				<a href="details.html">
-					<img src="images/pic4.jpg" alt=""/>
-					<h3>branded bags</h3>
-					<div class="price">
-						<h4>$300<span>indulge</span></h4>
-					</div>
-					<span class="b_btm"></span>
-				</a>
-			</div>
-			<div class="grid1_of_3">
-				<a href="details.html">
-					<img src="images/pic5.jpg" alt=""/>
-					<h3>ems women bag</h3>
-					<div class="price">
-						<h4>$300<span>indulge</span></h4>
-					</div>
-					<span class="b_btm"></span>
-				</a>
-			</div>
-			<div class="grid1_of_3">
-				<a href="details.html">
-					<img src="images/pic6.jpg" alt=""/>
-					<h3>branded cargos</h3>
-					<div class="price">
-						<h4>$300<span>indulge</span></h4>
-					</div>
-					<span class="b_btm"></span>
-				</a>
-			</div>
+		<div style="text-align: center;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;" class="grids_of_3">
+			<c:forEach items="${productsSell}" var="product">
+				 <div style="margin-left: 0px; margin-bottom: 20px;" class="grid1_of_3">
+					<a href='<c:url value = "/detail/${product.ID_product}"/>'>
+						<img src='<c:url value = "/resources/images/Product/${product.image}"/>' alt=""/>
+						<h3>Hàng chính hãng giả giá 50%</h3>
+						<div class="price">
+							<h4>${product.price}Đ<span>Xem ngay</span></h4>
+						</div>
+						<span class="b_btm"></span>
+					</a>
+				</div>
+			</c:forEach>
 			<div class="clear"></div>
 		</div>	
 		<!-- end grids_of_3 -->

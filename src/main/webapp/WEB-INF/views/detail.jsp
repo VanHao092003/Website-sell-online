@@ -38,7 +38,7 @@
 <!-- start main -->
 <div class="main_bg">
 <div class="wrap">	
-	<div class="main">
+	<div style="width: 100%;" class="main">
 	<!-- start content -->
 	<div class="single">
 			<!-- start span1_of_1 -->
@@ -51,40 +51,41 @@
 				    <div class="more-views" style="float:left;">
 				        <div class="more-views-container">
 				        <ul>
+				        	
 				            <li>
-				            	<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:85px;" href='<c:url value="/resources/images/0001-1.jpg"/>'  title="" alt="" id="more_view_item_1">
-				            	<img src='<c:url value="/resources/small/images/0001-1.jpg"/>'  title="" alt="" /></a>            
+				            	<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:75px;" href='<c:url value="/resources/images/Product/ao1_1.jpg"/>'  title="" alt="" id="more_view_item_1">
+				            	<img src='<c:url value="/resources/images/Product/ao1_1.jpg"/>' src_main='<c:url value="/resources/images/Product/ao1_1.jpg"/>' title="" alt="" /></a>            
 				            </li>
 				            <li>
-				            	<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:85px;" href=""  title="" alt="">
-				            	<img src='<c:url value="/resources/images/0001-2.jpg"/>' src_main=""  title="" alt="" /></a>
+				            	<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:75px;" href='<c:url value="/resources/images/Product/ao1_2.jpg"/>'  title="" alt="">
+				            	<img src='<c:url value="/resources/images/Product/ao1_2.jpg"/>' src_main=""  title="" alt="" /></a>
 				            </li>
 				            <li>
-				            	<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:85px;" href=""  title="" alt="">
+				            	<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:75px;" href=""  title="" alt="">
 				            	<img src="" src_main=""  title="" alt="" /></a> 
 				            </li>
 				            <li>
-				            	<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:85px;" href=""  title="" alt="">
+				            	<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:75px;" href=""  title="" alt="">
 				            	<img src="" src_main="" title="" alt="" /></a>  
 				            </li>
 				            <li>
-				            	<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:85px;" href=""  title="" alt="">
+				            	<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:75px;" href=""  title="" alt="">
 				            	<img src="" src_main="" title="" alt="" /></a>
 				            </li>
 				          </ul>
 				        </div>
 				    </div>
 				    <div class="product-image"> 
-				        <a class="cs-fancybox-thumbs cloud-zoom" rel="adjustX:30,adjustY:0,position:'right',tint:'#202020',tintOpacity:0.5,smoothMove:2,showTitle:true,titleOpacity:0.5" data-fancybox-group="thumb" href='<c:url value="/resources/images/0001-1.jpg"/>' title="Women Shorts" alt="Women Shorts">
-				           	<img src='<c:url value="/resources/images/large/0001-1.jpg"/>' alt="Women Shorts" title="Women Shorts" />
+				        <a class="cs-fancybox-thumbs cloud-zoom" rel="adjustX:30,adjustY:0,position:'right',tint:'#202020',tintOpacity:0.5,smoothMove:2,showTitle:true,titleOpacity:0.5" data-fancybox-group="thumb" href='<c:url value="/resources/images/Product/ao1_1.jpg"/>' title="Women Shorts" alt="Women Shorts">
+				           	<img src='<c:url value="/resources/images/Product/ao1_1.jpg"/>' alt="Women Shorts" title="Women Shorts" />
 				        </a>
 				   </div>
 					<script type="text/javascript">
-						var prodGallery = jQblvg.parseJSON('{"prod_1":{"main":{"orig":"<c:url value="/resources/images/0001-1.jpg"/>","main":"<c:url value="/resources/images/large/0001-1.jpg"/>","thumb":"<c:url value="/resources/images/small/0001-1.jpg"/>","label":""},"gallery":{"item_0":{"orig":"<c:url value="/resources/images/0001-1.jpg"/>","main":"<c:url value="/resources/images/large/0001-1.jpg"/>","thumb":"<c:url value="/resources/images/small/0001-1.jpg"/>","label":""},"item_1":{"orig":"<c:url value="/resources/images/0001-2.jpg"/>","main":"<c:url value="/resources/images/large/0001-2.jpg"/>","thumb":"<c:url value="/resources/images/small/0001-2.jpg"/>","label":""},"item_2":{"orig":"<c:url value="/resources/images/0001-5.jpg"/>","main":"<c:url value="/resources/images/large/0001-5.jpg"/>","thumb":"<c:url value="/resources/images/small/0001-5.jpg"/>","label":""},"item_3":{"orig":"<c:url value="/resources/images/0001-3.jpg"/>","main":"<c:url value="/resources/images/large/0001-3.jpg"/>","thumb":"<c:url value="/resources/images/small/0001-3.jpg"/>","label":""},"item_4":{"orig":"<c:url value="/resources/images/0001-4.jpg"/>","main":"<c:url value="/resources/images/large/0001-4.jpg"/>","thumb":"<c:url value="/resources/images/small/0001-4.jpg"/>","label":""}},"type":"simple","video":false}}'),
+						var prodGallery = jQblvg.parseJSON('{"prod_1":{"main":{"orig":"<c:url value="/resources/images/Product/${image1}"/>","main":"<c:url value="/resources/images/Product/${image1}"/>","thumb":"<c:url value="/resources/images/Product/${image1}"/>","label":""},"gallery":{"item_0":{"orig":"<c:url value="/resources/images/Product/${image1}"/>","main":"<c:url value="/resources/images/Product/${image1}"/>","thumb":"<c:url value="/resources/images/Product/${image1}"/>","label":""},"item_1":{"orig":"<c:url value="/resources/images/Product/${image2}"/>","main":"<c:url value="/resources/images/Product/${image2}"/>","thumb":"<c:url value="/resources/images/Product/${image2}"/>","label":""},"item_2":{"orig":"<c:url value="/resources/images/Product/${image5}"/>","main":"<c:url value="/resources/images/Product/${image5}"/>","thumb":"<c:url value="/resources/images/Product/${image5}"/>","label":""},"item_3":{"orig":"<c:url value="/resources/images/Product/${image3}"/>","main":"<c:url value="/resources/images/Product/${image3}"/>","thumb":"<c:url value="/resources/images/Product/${image3}"/>","label":""},"item_4":{"orig":"<c:url value="/resources/images/Product/${image4}"/>","main":"<c:url value="/resources/images/Product/${image4}"/>","thumb":"<c:url value="/resources/images/Product/${image4}"/>","label":""}},"type":"simple","video":false}}'),
 						    gallery_elmnt = jQblvg('.product-img-box'),
 						    galleryObj = new Object(),
 						    gallery_conf = new Object();
-						    gallery_conf.moreviewitem = '<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:85px;" href=""  title="" alt=""><img src="" src_main="" width="64" height="85" title="" alt="" /></a>';
+						    gallery_conf.moreviewitem = '<a class="cs-fancybox-thumbs" data-fancybox-group="thumb" style="width:64px;height:75px;" href=""  title="" alt=""><img src="" src_main="" width="64" height="75" title="" alt="" /></a>';
 						    gallery_conf.animspeed = 200;
 						jQblvg(document).ready(function() {
 						    galleryObj[1] = new prodViewGalleryForm(prodGallery, 'prod_1', gallery_elmnt, gallery_conf, '.product-image', '.more-views', 'http:');
@@ -119,53 +120,54 @@
 			<!-- start span1_of_1 -->
 			<div class="span1_of_1_des">
 				  <div class="desc1">
-					<h3>Lorem Ipsum is simply dummy text </h3>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-					<h5>Rs. 399 <a href="#">click for offer</a></h5>
+					<h3>${product.name} </h3>
+					<p>${product.text}</p>
+					<h5>${product.price }Đ <a href="#"> giá trước: ${product.discount}Đ</a></h5>
 					<div class="available">
-						<h4>Available Options :</h4>
+						<h4>Tùy chọn có sẵn:</h4>
 						<ul>
-							<li>Color:
-								<select>
-								<option>Silver</option>
-								<option>Black</option>
-								<option>Dark Black</option>
-								<option>Red</option>
+							<li>màu:
+								<select name="color">
+								<option>Màu bạc</option>
+								<option>Màu đen</option>
+								<option>Đen sẫm</option>
+								<option>Màu đỏ</option>
 							</select></li>
 							<li>Size:
-								<select>
+								<select name="size">
 									<option>L</option>
 									<option>XL</option>
 									<option>S</option>
 									<option>M</option>
 								</select>
 							</li>
-							<li>Quality:
-								<select>
+							<li>Số lượng:
+								<select name="quantity">
 									<option>1</option>
 									<option>2</option>
 									<option>3</option>
 									<option>4</option>
 									<option>5</option>
+									<option>6</option>
+									<option>7</option>
 								</select>
 							</li>
 						</ul>
 						<div class="btn_form">
-							<form>
+							<form action="/WebSaleOnline_1/detail/cart/${product.ID_product}">
 								<input type="submit" value="add to cart" title="" />
 							</form>
 						</div>
-						<span class="span_right"><a href="#">login to save in wishlist </a></span>
 						<div class="clear"></div>
 					</div>
 					<div class="share-desc">
 						<div class="share">
 							<h4>Share Product :</h4>
 							<ul class="share_nav">
-								<li><a href="#"><img src='<c:url value="/resources/images/facebook.png"/>' title="facebook"></a></li>
-								<li><a href="#"><img src='<c:url value="/resources/images/twitter.png"/>' title="Twiiter"></a></li>
+								<li><a href="https://www.facebook.com/"><img src='<c:url value="/resources/images/facebook.png"/>' title="facebook"></a></li>
+								<li><a href="https://twitter.com/?lang=vi"><img src='<c:url value="/resources/images/twitter.png"/>' title="Twiiter"></a></li>
 								<li><a href="#"><img src='<c:url value="/resources/images/rss.png"/>' title="Rss"></a></li>
-								<li><a href="#"><img src='<c:url value="/resources/images/gpluse.png"/>' title="Google+"></a></li>
+								<li><a href="https://www.google.com/"><img src='<c:url value="/resources/images/gpluse.png"/>' title="Google+"></a></li>
 				    		</ul>
 						</div>
 						<div class="clear"></div>
@@ -179,8 +181,8 @@
 			        <label for="tab-1" class="tab-label-1">Chi tiết</label>
 			
 		            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2">
-			        <label for="tab-2" class="tab-label-2">Bảo quản</label>
-			
+<!-- 			        <label for="tab-2" class="tab-label-2">Bảo quản</label>
+ -->			
 		           <!--  <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3">
 			        <label for="tab-3" class="tab-label-3">semiconductor</label> -->
 	          
@@ -188,14 +190,8 @@
 					
 			        <div class="content">
 				        <div class="content-1">
-				        	<p class="para top"><span>LOREM IPSUM</span> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined </p>
+				        	<p class="para top"><span style="font-size: 18px;">${product.title} </span>${product.discription}</p>
 							<ul>
-								<li>Research</li>
-								<li>Design and Development</li>
-								<li>Porting and Optimization</li>
-								<li>System integration</li>
-								<li>Verification, Validation and Testing</li>
-								<li>Maintenance and Support</li>
 							</ul>
 							<div class="clear"></div>
 						</div>
@@ -224,25 +220,11 @@
 		         	<!-- end tabs -->
 			   	</div>
 			   	<!-- start sidebar -->
-			 <div class="left_sidebar">
+			 <div style="width: 23%;" class="left_sidebar">
 					<div class="sellers">
-						<h4>Sản phẩm Hot</h4>
+						<h4>Vận chuyển</h4>
 						<div class="single-nav">
-			                <ul>
-			                   <li><a href="#">Always free from repetition</a></li>
-			                    <li><a href="#">Always free from repetition</a></li>
-			                    <li><a href="#">The standard chunk of Lorem Ipsum</a></li>
-			                    <li><a href="#">The standard chunk of Lorem Ipsum</a></li>
-			                    <li><a href="#">Always free from repetition</a></li>
-			                    <li><a href="#">The standard chunk of Lorem Ipsum</a></li>
-			                    <li><a href="#">Always free from repetition</a></li>
-			                    <li><a href="#">Always free from repetition</a></li>
-			                    <li><a href="#">Always free from repetition</a></li>
-			                    <li><a href="#">The standard chunk of Lorem Ipsum</a></li>
-			                    <li><a href="#">Always free from repetition</a></li>
-			                    <li><a href="#">Always free from repetition</a></li>
-			                    <li><a href="#">Always free from repetition</a></li>			                    
-			                </ul>
+			                        
 			              </div>
 						  <div class="banner-wrap bottom_banner color_link">
 								<a href="#" class="main_link">

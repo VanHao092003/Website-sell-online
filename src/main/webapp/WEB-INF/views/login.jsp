@@ -30,13 +30,13 @@
       <button>create</button>
       <p style="font-size: 27px; font-weight: 1000; margin-top: 20px;" class="message_">Already registered? <a href="#">Sign In</a></p>
     </form>
-    <form class="login-form">
+    <form class="login-form" action="/WebSaleOnline/login">
     	<div>
     		<p style="font-size: 27px; font-weight: 1000; margin-bottom: 20px;">Vui lòng nhập</p>
     	</div>
-      <input type="text" placeholder="username"/>
-      <input type="password" placeholder="password"/>
-      <button>login</button>
+      <input name="username_login" type="text" placeholder="username"/>
+      <input name="password_login" type="password" placeholder="password"/>
+      <button type="submit">login</button>
       <p style="font-size: 27px; font-weight: 1000; margin-top: 20px;" class="message_">Not registered? <a href="#">Create an account</a></p>
     </form>
   </div>
